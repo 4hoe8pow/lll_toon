@@ -1,0 +1,14 @@
+[package]
+name = "lll_toon"
+authors = ["Yu Tokunaga <tokunaga@grill-ware.com>"]
+description = "A tool to convert JPG images to ASCII art with colors."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/4hoe8pow/lll_toon"
+documentation = "https://crates.io/lll_toon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+crossterm = "0.28"
+image = "0.25"
